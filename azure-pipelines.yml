@@ -15,7 +15,7 @@ stages:
     displayName: 'Build job'
     pool:
       vmImage: 'ubuntu-20.04'
-    s#teps:
+    steps:
     - task: Docker@2
       displayName: 'Build and Push the image to ACR'
       inputs:
